@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "image": "materials/images/jack.jpg",
+      "name": "Sifat Hasan",
+      "title": "Agen Founder",
+      "description": "Lorem  ipsum dolor sit amet consectetur adipisicing elit. Amet repellat culpa dolore"
+    },
+    {
+      "image": "materials/images/sarah.jpg",
+      "name": "Sifat Hasan",
+      "title": "Agen Founder",
+      "description": "Lorem  ipsum dolor sit amet consectetur adipisicing elit. Amet repellat culpa dolore"
+    },
+    {
+      "image": "materials/images/jack.jpg",
+      "name": "Sifat Hasan",
+      "title": "Agen Founder",
+      "description": "Lorem  ipsum dolor sit amet consectetur adipisicing elit. Amet repellat culpa dolore"
+    }
+  ]
+}
