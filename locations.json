@@ -1,0 +1,197 @@
+{
+  "location": [
+    {
+      "place": "USA-Chantilly",
+      "subContinent": "America",
+      "address": {
+        "line1": "14150 Newbrook Drive",
+        "line2": "Suite 115",
+        "line3": "Chantilly,VA 20151"
+      },
+      "phoneNumber": "+1-571-281-3229",
+      "locationImage": "materials/img/USAchantilly.png "
+    },
+    {
+      "place": "Canada-Toronto",
+      "subContinent": "America",
+      "address": {
+        "line1": "2425 Matheson Blvd East8th Floor Mississauga",
+        "line2": "8th Floor",
+        "line3": "Mississauga, Toronto",
+        "line4": "Ontario, L4W 5K4"
+      },
+      "phoneNumber": "+1-905-361-6591",
+      "locationImage": "materials/img/canada.png "
+    },
+    {
+      "place": "USA-Strafford",
+      "subContinent": "America",
+      "address": {
+        "line1": "920 FM 1092",
+        "line2": "# 201",
+        "line3": "Stafford, TX 77477"
+      },
+      "phoneNumber": "+1-512-730-0443",
+      "locationImage": "materials/img/USAstafford.png"
+    },
+    {
+      "place": "UK-Salisbury",
+      "subContinent": "Europe",
+      "address": {
+        "line1": "Nunns Orchard",
+        "line2": "Dean Lane",
+        "line3": "Whiteparish",
+        "line4": "Salisbury, SP5 2RJ"
+      },
+      "phoneNumber": "+44-114-360-3250",
+      "locationImage": "materials/img/UK.png "
+    },
+    {
+      "place": "UAE - Dubai",
+      "subContinent": "Middle East",
+      "address": {
+        "line1": "E3-308, Dubai Silicon Oasis",
+        "line2": "Dubai"
+      },
+      "phoneNumber": "+971-4371-2632",
+      "locationImage": "materials/img/UAEDubai.png "
+    },
+    {
+      "place": "India - Trivandrum",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "7th Floor, Ganga",
+        "line2": "Phase III Campus,",
+        "line3": "Technopark",
+        "line4": "Trivandrum - 695583"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/tvmGanga.png "
+    },
+    {
+      "place": "India - Chennai",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "3rd Floor, SM Towers, 2/88",
+        "line2": "OMR, Seevaram, Perungudi",
+        "line3": "Chennai - 600096"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/chennaiQB.png "
+    },
+    {
+      "place": "India - Noida",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "6th Floor, Tower B,",
+        "line2": "A-8A, Knowledge Boulevard,",
+        "line3": "Sector 62, Noida - 201301"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/noida.png "
+    },
+    {
+      "place": "India - Bangalore",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "7th Floor, Fairway Business",
+        "line2": "Park,",
+        "line3": "Near EGL, Domlur",
+        "line4": "Bangalore - 560071"
+      },
+      "phoneNumber": "+91-806-193-9353",
+      "locationImage": "materials/img/bangalore.png "
+    },
+    {
+      "place": "India - Calicut",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "5th Floor",
+        "line2": "UL Cyber Park",
+        "line3": "Calicut - 673016"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/calicut.png "
+    },
+    {
+      "place": "India - Cochin",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "4th Floor, Tower B",
+        "line2": "World Trade Center",
+        "line3": "Infopark",
+        "line4": "Cochin - 682030"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/kochiQB.png "
+    },
+    {
+      "place": "India - Cochin",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "9th Floor, Lulu Cyber Tower",
+        "line2": "Infopark",
+        "line3": "Cochin - 682030"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/kochi.png "
+    },
+    {
+      "place": "India - Trivandrum",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "4th Floor, Artech Magnet",
+        "line2": "Vazhuthacaud",
+        "line3": "Trivandrum - 695014"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/tvmVzcd.png "
+    },
+    {
+      "place": "India - Koratty",
+      "subContinent": "South Asia",
+      "address": {
+        "line1": "Nisagandhi, Infopark",
+        "line2": "Koratty",
+        "line3": "Trichur - 680308"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/koratty.png "
+    },
+    {
+      "place": "Japan - Tokyo",
+      "subContinent": "East Asia",
+      "address": {
+        "line1": "Toranomon Hills Business",
+        "line2": "Tower 15F",
+        "line3": "1-17-1 Toranomon",
+        "line4": "Minato-ku, Tokyo 105-6415"
+      },
+      "phoneNumber": " +81 70 4130 1686 ",
+      "locationImage": "materials/img/japan.png "
+    },
+    {
+      "place": "Singapore - Singapore City",
+      "subContinent": "East Asia",
+      "address": {
+        "line1": "8 Temasek Boulevard",
+        "line2": "#42-01, Suntec Tower Three",
+        "line3": "Singapore 038988"
+      },
+      "phoneNumber": " +65-9880-1029 ",
+      "locationImage": "materials/img/singapore.png "
+    },
+    {
+      "place": "Australia - Sydney",
+      "subContinent": "Oceania",
+      "address": {
+        "line1": "Level 40, Northpoint Tower",
+        "line2": "100 Miller Street",
+        "line3": "North Sydney",
+        "line4": "NSW 2060"
+      },
+      "phoneNumber": " ",
+      "locationImage": "materials/img/australiaQB.jpg "
+    }
+  ]
+}
