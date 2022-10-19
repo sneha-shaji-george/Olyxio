@@ -16,13 +16,13 @@
     1. BASIC STYLING FOR COMMON HTML ELEMENTS
 .................................................*/
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
+} */
 
 html,
 body {
@@ -258,9 +258,9 @@ audio:not([controls]) {
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
-a:focus {
+/* a:focus {
   outline: thin dotted;
-}
+} */
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
@@ -566,10 +566,6 @@ button {
   padding: 0 20px;
 }
 
-/* .flex-box {
-  display: flex;
-} */
-
 .btn {
   font-size: 18px;
   color: var(--primary-color);
@@ -588,10 +584,6 @@ button {
     5. HEADER SECTION
 .................................................*/
 
-/* #header .flex-box {
-  display: flex;
-} */
-
 #header .container {
   display: flex;
   justify-content: space-between;
@@ -603,9 +595,6 @@ button {
 }
 
 .menu li a {
-  /* color: var(--primary-color);
-  padding: 10px; */
-  /* font-size: 18px; */
   position: relative;
   font-family: "Lexend Deca";
 }
@@ -638,11 +627,14 @@ button {
   display: none;
 } */
 
+body{
+  background-color: #fceddf;
+}
 .menu {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1; 
+  z-index: 1;
   top: 0;
   right: 0;
   background-color: #ffffff;
@@ -653,22 +645,14 @@ button {
 .menu a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  /* font-size: 15px; */
+
   color: #797979;
   display: block;
   transition: 0.3s;
-  /* display: none; */
-}
-/* .dropdown-container a {
-  display: none;
-} */
-
-.dropdown-content{
-  padding: 8px 8px 8px 30px;
 }
 
-.dropdown-items:hover{
-  color:#2c2d2a ;
+.dropdown-items:hover {
+  color: #2c2d2a;
   font-size: 18px;
 }
 
@@ -681,7 +665,6 @@ button {
   color: #f1f1f1;
 }
 
-
 .menu .closebtn {
   position: absolute;
   top: 0;
@@ -691,15 +674,6 @@ button {
   display: block;
 }
 
-
-/* .inner-list{
-  padding: 8px 8px 8px 52px;
-  font-size: 15px;
-  display : none;
-} */
-/* .dropdown-content{
-  font-size: ;
-} */
 .dropbtn,
 .lastAnchor {
   background-color: white;
@@ -711,7 +685,7 @@ button {
   text-transform: capitalize;
 }
 
-.active i{
+.active i {
   transform: rotate(180deg);
 }
 /*................................................
@@ -835,7 +809,7 @@ button {
 .analytics,
 .support {
   background-color: #011c34;
-  /* padding-right: 99px; */
+
   padding-right: 51px;
   padding-left: 37px;
   padding-top: 23px;
@@ -870,7 +844,7 @@ button {
 
 #arrow {
   transform: rotate(45deg);
-  /* width:68px; */
+
   position: absolute;
   right: 14px;
   bottom: 44px;
@@ -894,7 +868,6 @@ button {
 
 .about {
   background-color: #fceddf;
-  /* margin-right: 71px; */
 }
 
 .about-list {
@@ -929,22 +902,16 @@ button {
   font-size: 16px;
   font-weight: 400;
   color: #2c2d2a;
-  /* margin-bottom: 28px; */
+
   line-height: 1.5;
-  /* padding-top: 4%; */
+
   font-family: "Lexend Deca";
 }
-/* .about img{
-    /* padding-right: 73px; */
-/* width: 2000px; */
 
 .about img {
   width: 2000px;
   box-shadow: 16px -14px 0 0 #011c34, 16px -14px 0 4px #e7a136;
 }
-/* .about a{
-    padding: 11px 33px;
-} */
 
 .work {
   background-color: #fae7c7;
@@ -974,13 +941,6 @@ button {
   width: 1344px;
   text-align: center;
 }
-
-/* .work-image .image {
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 87%;
-                } */
 
 .work-aside {
   padding-top: 105px;
@@ -1029,7 +989,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* gap:13px */
 }
 
 .team img {
@@ -1042,8 +1001,7 @@ button {
 
 .team-img {
   display: flex;
-  /* justify-content: space-evenly; */
-  /* border:1px solid red; */
+
   gap: 169px;
   padding-top: 23px;
 }
@@ -1053,8 +1011,6 @@ button {
   margin-top: 39px;
   padding: 5px 33px;
 }
-/* .team-image-one, .team-image-two, .team-image-three{
-    /* box-shadow: 0px -16px 0 0 #fceddf, 1px -15px 0 6px black; */
 
 .founder {
   background-color: #011c34;
@@ -1126,22 +1082,20 @@ button {
 .saying-block {
   background-color: white;
   padding: 10px;
-  /* margin-right: 33px;
-    margin-left: 0px; */
 }
 
 .saying-content p {
   font-size: 16px;
   font-weight: 400;
   color: #2c2d2a;
-  /* width: 50%; */
+
   line-height: 1.5;
   padding-top: 5px;
 }
 
 .footer-content {
   display: flex;
-  /* justify-content: left; */
+
   max-width: 1200px;
   margin: 0 auto;
   background-color: #011c34;
@@ -1173,6 +1127,115 @@ footer address {
   font-family: "Lexend Deca";
   width: 266px;
 }
+
+/* locations */
+
+.contact-page{
+  background-color: #fceddf;
+}
+
+.region{
+display: flex;
+margin: 20px auto;
+
+}
+
+/* #breadcrumb {
+  padding-top: 20px;
+  padding-left: 90px;
+}
+
+#breadcrumb a {
+  text-decoration: none;
+  color: #000;
+}
+
+#breadcrumb span {
+  color: #e7a136;
+} */
+
+#locations-heading {
+  color: #011c34;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  padding-top: 40px;
+}
+
+.region {
+  margin-top: 40px;
+  width: 80%;
+}
+
+.region div {
+  width: 100%;
+}
+
+.region-box {
+  /* margin-bottom: 50px;
+  margin-top: 50px; */
+  /* height: 200px; */
+  border-radius: 20px;
+  padding: 30px;
+  /* width: 50%; */
+} 
+
+.region-box h4{
+  font-size: 16px;
+  font-family: "Lexend Deca";
+  color: black;
+  font-weight: 600;
+}
+
+.region-box p, .map{
+  font-size: 16px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  color: black;
+}
+
+.region-box:hover{
+  border :dashed #e7a136 1px;
+}
+.region-heading {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+  border: 1px solid #c0c0c0;
+  width: 100%;
+  padding-top: 10px;
+  background-color: #f7f7f7;
+  padding-bottom: 12px;
+}
+
+.address{
+  /* display: flex;
+  gap: 29px;
+  flex-wrap: wrap; */
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.america, .europe ,.middle, .south, .east , .oceania{
+  display: flex;
+  max-width: 1200px;
+  margin: 0  auto;
+  /* justify-content: space-around;  */
+  /* width: 50%; */
+}
+/* .europe ,.middleEast , .southAsia, .eastAsia , .oceania{
+  display: none;
+} */
+.location-img{
+  width: 50%;
+}
+/* .map{
+  font-size: 16px;
+  font-family: "Lexend Deca";
+  color: #32425f;
+} */
 /*................................................
     7. FOOTER SECTION
 .................................................*/
@@ -1275,17 +1338,14 @@ footer address {
   .about img {
     box-shadow: none;
     margin-left: 7%;
-    /* margin-right: 19px; */
+
     width: 100%;
     max-width: 95%;
   }
   .about-container {
-    /* margin-left: 24px; */
     max-width: 95%;
     width: 100%;
-    /* margin-left: 0px; */
-    /* margin: 0 auto; */
-    /* margin-left: 0px; */
+
     margin-left: 37px;
   }
   .about p {
@@ -1296,11 +1356,6 @@ footer address {
     flex-direction: column;
     gap: 36px;
   }
-  /* footer li,
-                    footer h3,
-                    .footer-logo{
-                        padding-left: 18px;
-                    } */
 
   .saying h2,
   .team h2,
@@ -1321,13 +1376,10 @@ footer address {
 
   .work h2 {
     text-align: left;
-    /* padding-top: 0px; */
+
     padding-top: 22px;
   }
   .work p {
-    /* padding-left: 15px;
-                        padding-right: 15px;
-                        padding-top: 0px; */
     padding-top: 0px;
   }
 
@@ -1353,9 +1405,7 @@ footer address {
     padding-left: 22px;
     width: 100%;
   }
-  /* body{
-        background-color: red;
-    } */
+
   header li,
   .btn-secondary {
     display: none;
@@ -1413,7 +1463,6 @@ footer address {
     flex-direction: column;
     margin-left: 28px;
     margin-right: 30px;
-    /* align-items: center; */
   }
   .service-container {
     display: flex;
@@ -1423,10 +1472,9 @@ footer address {
   .about-content {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+
     padding: 0px;
-    /* padding-right: 0px;
-                            padding-bottom: 0px;*/
+
     padding-top: 32px;
   }
   .work-content {
@@ -1506,18 +1554,13 @@ footer address {
     margin-left: 15px;
   }
   .work img {
-    /* width: 100%; */
-    /* max-width: 700px;
-                            width: 100%; */
     padding-left: 0px;
     text-align: center;
   }
   .work-aside {
     padding-top: 0px;
   }
-  /* body{
-            background-color: red;
-        } */
+
   header li,
   .btn-secondary {
     display: none;
@@ -1526,10 +1569,10 @@ footer address {
   #support,
   #analytics {
     margin-right: 92%;
-    /* margin-left: 0px;*/
   }
 
   .saying-content p {
     padding-top: 5px;
   }
 }
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Olyxio</title>
   </head>
@@ -13,27 +14,13 @@
         <h1 class="logo">
           <a href="#"><img src="materials\images\logo.png" alt="logo" /></a>
         </h1>
-        <nav class="menu">
-          <ul class="flex-box">
-            <li><a id="home" href="">Home</a></li>
-            <li></li>
-            <li><a href="">About</a></li>
-            <li></li>
-            <li><a href="">Service</a></li>
-            <li></li>
-            <li><a href="">Contact</a></li>
-            <li></li>
-            <li><a href="">FAQ</a></li>
-            <li></li>
-          </ul>
+        <nav class="menu" id="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="dropdown" id="dropdown">
+            </div>
         </nav>
         <a class="btn btn-secondary" href="">Free Trial</a>
-        <img
-          id="menu-icon"
-          src="materials/images/menu-icon.svg"
-          alt="menu-icon"
-          width="32px"
-        />
+        <span  style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
       </div>
     </header>
     <section class="banner">
