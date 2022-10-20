@@ -11,7 +11,7 @@
           "line3": "Chantilly, VA 20151"
         },
         "phoneNumber": "+1-571-281-3229",
-        "locationImage": "img/USAchantilly.png"
+        "locationImage": "materials/office-images/USAchantilly.png"
       },
       {
         "name": "Canada - Toronto",
@@ -22,7 +22,7 @@
           "line4": "Ontario, L4W 5K4"
         },
         "phoneNumber": "+1-905-361-6591",
-        "locationImage": "img/canada.png"
+        "locationImage": "materials/office-images/canada.png"
       },
       {
         "name": "USA - Stafford",
@@ -33,7 +33,7 @@
         },
         "phoneNumber": "+1-512-730-0443",
 
-        "locationImage": "img/USAstafford.png"
+        "locationImage": "materials/office-images/USAstafford.png"
       }
     ]
   },
@@ -50,7 +50,7 @@
         },
         "phoneNumber": "+1-512-730-0443",
 
-        "locationImage": "img/UK.png"
+        "locationImage": "materials/office-images/UK.png"
       }
     ]
   },
@@ -65,7 +65,7 @@
         },
         "phoneNumber": "+971-4371-2632",
 
-        "locationImage": "img/UAEDubai.png"
+        "locationImage": "materials/office-images/UAEDubai.png"
       }
     ]
   },
@@ -81,7 +81,7 @@
           "line4": "Trivandrum - 695583"
         },
 
-        "locationImage": "img/tvmGanga.png"
+        "locationImage": "materials/office-images/tvmGanga.png"
       },
       {
         "name": "India - Chennai",
@@ -91,7 +91,7 @@
           "line3": "Chennai - 600096"
         },
 
-        "locationImage": "img/chennaiQB.png"
+        "locationImage": "materials/office-images/chennaiQB.png"
       },
       {
         "name": "India - Noida",
@@ -101,7 +101,7 @@
           "line3": "Sector 62, Noida - 201301"
         },
 
-        "locationImage": "img/noida.png"
+        "locationImage": "materials/office-images/noida.png"
       },
       {
         "name": "India - Bangalore",
@@ -113,7 +113,7 @@
         },
         "phoneNumber": "+91-806-193-9353",
 
-        "locationImage": "img/bangalore.png"
+        "locationImage": "materials/office-images/bangalore.png"
       },
       {
         "name": "India - Cochin",
@@ -124,7 +124,7 @@
           "line4": "Cochin - 682030"
         },
 
-        "locationImage": "img/kochiQB.png"
+        "locationImage": "materials/office-images/kochiQB.png"
       },
       {
         "name": "India - Calicut",
@@ -134,7 +134,7 @@
           "line3": "Calicut - 673016"
         },
 
-        "locationImage": "img/calicut.png"
+        "locationImage": "materials/office-images/calicut.png"
       },
       {
         "name": "India - Cochin",
@@ -144,7 +144,7 @@
           "line3": "Cochin - 682030"
         },
 
-        "locationImage": "img/kochi.png"
+        "locationImage": "materials/office-images/kochi.png"
       },
       {
         "name": "India - Trivandrum",
@@ -154,7 +154,7 @@
           "line3": "Trivandrum - 695014"
         },
 
-        "locationImage": "img/tvmVzcd.png"
+        "locationImage": "materials/office-images/tvmVzcd.png"
       },
       {
         "name": "India - Koratty",
@@ -164,7 +164,7 @@
           "line3": "Trichur - 680308"
         },
 
-        "locationImage": "img/koratty.png"
+        "locationImage": "materials/office-images/koratty.png"
       }
     ]
   },
@@ -181,7 +181,7 @@
         },
         "phoneNumber": "+81 70 4130 1686",
 
-        "locationImage": "img/japan.png"
+        "locationImage": "materials/office-images/japan.png"
       },
       {
         "name": "Singapore - Singapore City",
@@ -192,7 +192,7 @@
         },
         "phoneNumber": "+65-9880-1029",
 
-        "locationImage": "img/singapore.png"
+        "locationImage": "materials/office-images/singapore.png"
       }
     ]
   },
@@ -208,7 +208,7 @@
           "line4": "NSW 2060"
         },
 
-        "locationImage": "img/australiaQB.jpg"
+        "locationImage": "materials/office-images/australiaQB.jpg"
       }
     ]
   }

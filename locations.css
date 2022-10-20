@@ -1166,6 +1166,17 @@ margin: 20px auto;
   margin-top: 40px;
   width: 80%;
 }
+.region-box:nth-child(odd) {
+  border: 0.1mm;
+  border-style: none dashed dashed none;
+  border-color: grey;
+}
+
+.region-box:nth-child(even) {
+  border: 0.1mm;
+  border-style: none none dashed none;
+  border-color: grey;
+}
 
 .region div {
   width: 100%;
@@ -1175,9 +1186,9 @@ margin: 20px auto;
   /* margin-bottom: 50px;
   margin-top: 50px; */
   /* height: 200px; */
-  border-radius: 20px;
+  
   padding: 30px;
-  /* width: 50%; */
+  width: 35%;
 } 
 
 .region-box h4{
@@ -1196,6 +1207,7 @@ margin: 20px auto;
 
 .region-box:hover{
   border :dashed #e7a136 1px;
+  border-radius: 5px;
 }
 .region-heading {
   font-weight: 400;
