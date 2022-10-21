@@ -627,7 +627,7 @@ button {
   display: none;
 } */
 
-body{
+body {
   background-color: #fceddf;
 }
 .menu {
@@ -1130,14 +1130,13 @@ footer address {
 
 /* locations */
 
-.contact-page{
+.contact-page {
   background-color: #fceddf;
 }
 
-.region{
-display: flex;
-margin: 20px auto;
-
+.region {
+  display: flex;
+  margin: 20px auto;
 }
 
 /* #breadcrumb {
@@ -1185,28 +1184,27 @@ margin: 20px auto;
 .region-box {
   /* margin-bottom: 50px;
   margin-top: 50px; */
-  /* height: 200px; */
-  
+  max-height: 200px;
   padding: 30px;
   width: 35%;
-} 
+}
 
-.region-box h4{
-  font-size: 16px;
+.region-box h4 {
+  font-size: 18px;
   font-family: "Lexend Deca";
   color: black;
   font-weight: 600;
 }
 
-.region-box p, .map{
+.region-box p {
   font-size: 16px;
   font-family: "Lexend Deca";
   font-weight: 400;
   color: black;
 }
 
-.region-box:hover{
-  border :dashed #e7a136 1px;
+.region-box:hover {
+  border: dashed #e7a136 1px;
   border-radius: 5px;
 }
 .region-heading {
@@ -1221,7 +1219,7 @@ margin: 20px auto;
   padding-bottom: 12px;
 }
 
-.address{
+.address {
   /* display: flex;
   gap: 29px;
   flex-wrap: wrap; */
@@ -1230,18 +1228,53 @@ margin: 20px auto;
   flex-wrap: wrap;
 }
 
-.america, .europe ,.middle, .south, .east , .oceania{
+.america,
+.europe,
+.middle,
+.south,
+.east,
+.oceania {
   display: flex;
   max-width: 1200px;
-  margin: 0  auto;
+  margin: 0 auto;
   /* justify-content: space-around;  */
   /* width: 50%; */
 }
 /* .europe ,.middleEast , .southAsia, .eastAsia , .oceania{
   display: none;
 } */
-.location-img{
+.location-img {
   width: 50%;
+}
+.region-heading {
+  background-color: #fae7c7;
+  color: #2c2d2a;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-size: 17px;
+  width: 25%;
+  border: 1px solid #c1c1c1;
+  cursor: pointer;
+}
+
+.region-heading:focus {
+  background-color: #000;
+  color: #fff;
+  max-height: 45px;
+  height: 100%;
+}
+
+.region-heading:focus::after {
+  opacity: 1;
+  content: "";
+  border: 10px solid #000;
+  border-color: #000 transparent transparent transparent;
+  position: relative;
+  top: 25px;
+  left: 40%;
+  width: 1%;
+  display: block;
 }
 /* .map{
   font-size: 16px;
@@ -1587,4 +1620,3 @@ margin: 20px auto;
     padding-top: 5px;
   }
 }
-

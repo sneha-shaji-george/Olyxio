@@ -1,329 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css" />
-    <title>Olyxio</title>
-  </head>
-  <body>
-    <header id="header">
-      <div class="container .flex-box">
-        <h1 class="logo">
-          <a href="#"><img src="materials\images\logo.png" alt="logo" /></a>
-        </h1>
-        <nav class="menu" id="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="dropdown" id="dropdown">
-            </div>
-        </nav>
-        <a class="btn btn-secondary" href="">Free Trial</a>
-        <span  style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-      </div>
-    </header>
-    <section class="banner">
-      <div class="banner-content">
-        <div class="banner-aside">
-          <h2 id="grow">Grow Professionally with the best</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ab
-            dolore ullam? Hic tempore eaque quod aliquid consequuntur tempora
-            amet iure id dolorem corporis
-          </p>
-          <a href="#">Learn More</a>
-          <div class="banner-bottom">
-            <div class="review">
-              <h2>10K</h2>
-              <p>Reviews</p>
-            </div>
-            <div class="experience">
-              <h2>08+</h2>
-              <p>Years of Experience</p>
-            </div>
-            <div class="project">
-              <h2>300+</h2>
-              <p>Project Completed</p>
-            </div>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Olyxio</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="container .flex-box">
+      <h1 class="logo">
+        <a href="#"><img src="materials\images\logo.png" alt="logo" /></a>
+      </h1>
+      <nav class="menu" id="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="dropdown" id="dropdown">
         </div>
-        <div class="banner-image">
-          <img src="materials/images/banner.png" alt="banner-img" />
-        </div>
-      </div>
-    </section>
-    <section class="service">
-      <div class="service-content">
-        <h2 id="service">Service We Offer</h2>
-        <div class="service-container">
-          <div class="finances">
-            <img
-              id="contract"
-              src="materials/images/contract.png"
-              alt="contract"
-            />
-            <div class="arrow">
-              <h2>Financial Planning</h2>
-              <img
-                id="arrow"
-                src="materials\images\arrow.svg"
-                alt="arrow"
-                width="66px"
-                height="59px"
-              />
-            </div>
-          </div>
-          <div class="analytics">
-            <img
-              id="analytics"
-              src="materials/images/business.png"
-              alt="analytics"
-            />
-            <div class="arrow">
-              <h2>Business Analytics</h2>
-              <img
-                id="arrow"
-                src="materials\images\arrow.svg"
-                alt="arrow"
-                width="66px"
-                height="59px"
-              />
-            </div>
-          </div>
-          <div class="support">
-            <img id="support" src="materials/images/report.png" alt="support" />
-            <div class="arrow">
-              <h2>Business Support</h2>
-              <img
-                id="arrow"
-                src="materials\images\arrow.svg"
-                alt="arrow"
-                width="66px"
-                height="59px"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="about">
-      <div class="about-content">
-        <div class="about-image">
-          <img src="materials/images/about.jpg" alt="about" />
-        </div>
-        <div class="about-container">
-          <h2>About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            repellat culpa dolore, similique molestias voluptate consequuntur
-            voluptatum laboriosam, eaque temporibus minus excepturi, in animi.
-            Odio necessitatibus velit ipsam dolorem excepturi.
-          </p>
-          <div class="about-list">
-            <ul class="list-right">
-              <li>Research</li>
-              <li>Analytics</li>
-              <li>Research</li>
-              <li>Analytics</li>
-            </ul>
-            <ul class="list-left">
-              <li>Strategy</li>
-              <li>QA</li>
-              <li>Strategy</li>
-              <li>QA</li>
-            </ul>
-          </div>
-          <a href="#">Learn More</a>
-        </div>
-      </div>
-    </section>
-    <section class="work">
-      <div class="work-content">
-        <div class="work-aside">
-          <h2>How it Works</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            repellat culpa dolore, similique molestias voluptate consequuntur
-            voluptatum laboriosam, eaque temporibus minus excepturi, in animi.
-            Odio necessitatibus velit ipsam dolorem excepturi.
-          </p>
-          <a href="#">Learn More</a>
-        </div>
-        <div class="work-image">
-          <img
-            class="image"
-            src="materials\images\remote-1.jpg"
-            alt="remote-1"
-          />
-        </div>
-      </div>
-    </section>
-    <section class="team">
-      <div class="team-content">
-        <h2>Our Team</h2>
+      </nav>
+      <a class="btn btn-secondary" href="">Free Trial</a>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="banner-content">
+      <div class="banner-aside">
+        <h2 id="grow">Grow Professionally with the best</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellat
-          culpa dolore, similique molestias voluptate consequuntur voluptatum
-          laboriosam, eaque temporibus minus excepturi, in animi.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ab
+          dolore ullam? Hic tempore eaque quod aliquid consequuntur tempora
+          amet iure id dolorem corporis
         </p>
-        <div class="team-img">
-          <div class="team-image-one">
-            <img
-              src="materials\images\img2.jpg"
-              alt="img-one"
-              width="300px"
-              height="310px"
-            />
-            <div class="founder">
-              <p id="david">David Forren</p>
-              <p id="ceo">Founder/CEO</p>
-            </div>
+        <a href="#">Learn More</a>
+        <div class="banner-bottom">
+          <div class="review">
+            <h2>10K</h2>
+            <p>Reviews</p>
           </div>
-          <div class="team-image-two">
-            <img
-              src="materials\images\img4.jpg"
-              alt="img-two"
-              width="300px"
-              height="310px"
-            />
-            <div class="founder">
-              <p id="david">David Forren</p>
-              <p id="ceo">Founder/CEO</p>
-            </div>
+          <div class="experience">
+            <h2>08+</h2>
+            <p>Years of Experience</p>
           </div>
-          <div class="team-image-three">
-            <img
-              src="materials\images\img9.jpg"
-              alt="img-three"
-              width="300px"
-              height="310px"
-            />
-            <div class="founder">
-              <p id="david">David Forren</p>
-              <p id="ceo">Founder/CEO</p>
-            </div>
+          <div class="project">
+            <h2>300+</h2>
+            <p>Project Completed</p>
           </div>
-        </div>
-        <a href="#">See All Team</a>
-      </div>
-    </section>
-    <section class="saying">
-        <div class="saying-container">
-          <h2>What They Saying</h2>
-          <div class="sayings">
-            <!-- <div class="saying-block">
-              <div class="saying-image">
-                <img
-                  src="training\materials\images\jack.jpg"
-                  alt="jack"
-                  width="15%"
-                />
-                <div class="name">
-                  <h6>Sifat Hasan</h6>
-                  <p>Agen Founder</p>
-                </div>
-              </div>
-              <div class="saying-content">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                  repellat culpa dolore
-                </p>
-              </div>
-            </div>
-            <div class="saying-block">
-              <div class="saying-image">
-                <img
-                  src="training\materials\images\sarah.jpg"
-                  alt="sarah"
-                  width="15%"
-                />
-                <div class="name">
-                  <h6>Sifat Hasan</h6>
-                  <p>Agen Founder</p>
-                </div>
-              </div>
-              <div class="saying-content">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                  repellat culpa dolore
-                </p>
-              </div> 
-            </div>
-            <div class="saying-block">
-              <div class="saying-image">
-                <img
-                  src="training\materials\images\jack.jpg"
-                  alt="jack"
-                  width="15%"
-                />
-                <div class="name">
-                  <h6>Sifat Hasan</h6>
-                  <p>Agen Founder</p>
-                </div>
-              </div>
-              <div class="saying-content">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                  repellat culpa dolore
-                </p>
-              </div> -->
-            </div>
-            <a href="#">See All Team</a>
-          </div>
-          
-        </div>
-      </section>
-    <footer class="footer-container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <a href="#"
-            ><img src="materials\images\footer-logo.png" alt="logo"
-          /></a>
-          <address>24 S Swan Road, Tucson,az,2345 United States</address>
-        </div>
-        <div class="navigation">
-          <h3>Navigation</h3>
-          <ul>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Testimonial</a></li>
-          </ul>
-        </div>
-        <div class="footer-support">
-          <h3>Support</h3>
-          <ul>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Feature</a></li>
-            <li><a href="#">Integration</a></li>
-          </ul>
-        </div>
-        <div class="stay-connected">
-          <h3>Stay Connected!</h3>
-          <ul>
-            <li>
-              <a href="#"
-                ><img
-                  src="materials/images/call.svg"
-                  alt="call"
-                  width="20px"
-                />+9876545678</a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><img
-                  src="materials/images/mail.svg"
-                  alt="mail"
-                  width="20px"
-                />contact@example.com</a
-              >
-            </li>
-          </ul>
         </div>
       </div>
-    </footer>
-    <script src="olyxio.js"></script>
-  </body>
+      <div class="banner-image">
+        <img src="materials/images/banner.png" alt="banner-img" />
+      </div>
+    </div>
+  </section>
+  <section class="service">
+    <div class="service-content">
+      <h2 id="service">Service We Offer</h2>
+      <div class="service-container">
+        <div class="finances">
+          <img id="contract" src="materials/images/contract.png" alt="contract" />
+          <div class="arrow">
+            <h2>Financial Planning</h2>
+            <img id="arrow" src="materials\images\arrow.svg" alt="arrow" width="66px" height="59px" />
+          </div>
+        </div>
+        <div class="analytics">
+          <img id="analytics" src="materials/images/business.png" alt="analytics" />
+          <div class="arrow">
+            <h2>Business Analytics</h2>
+            <img id="arrow" src="materials\images\arrow.svg" alt="arrow" width="66px" height="59px" />
+          </div>
+        </div>
+        <div class="support">
+          <img id="support" src="materials/images/report.png" alt="support" />
+          <div class="arrow">
+            <h2>Business Support</h2>
+            <img id="arrow" src="materials\images\arrow.svg" alt="arrow" width="66px" height="59px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="about-content">
+      <div class="about-image">
+        <img src="materials/images/about.jpg" alt="about" />
+      </div>
+      <div class="about-container">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          repellat culpa dolore, similique molestias voluptate consequuntur
+          voluptatum laboriosam, eaque temporibus minus excepturi, in animi.
+          Odio necessitatibus velit ipsam dolorem excepturi.
+        </p>
+        <div class="about-list">
+          <ul class="list-right">
+            <li>Research</li>
+            <li>Analytics</li>
+            <li>Research</li>
+            <li>Analytics</li>
+          </ul>
+          <ul class="list-left">
+            <li>Strategy</li>
+            <li>QA</li>
+            <li>Strategy</li>
+            <li>QA</li>
+          </ul>
+        </div>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </section>
+  <section class="work">
+    <div class="work-content">
+      <div class="work-aside">
+        <h2>How it Works</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          repellat culpa dolore, similique molestias voluptate consequuntur
+          voluptatum laboriosam, eaque temporibus minus excepturi, in animi.
+          Odio necessitatibus velit ipsam dolorem excepturi.
+        </p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="work-image">
+        <img class="image" src="materials\images\remote-1.jpg" alt="remote-1" />
+      </div>
+    </div>
+  </section>
+  <section class="team">
+    <div class="team-content">
+      <h2>Our Team</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellat
+        culpa dolore, similique molestias voluptate consequuntur voluptatum
+        laboriosam, eaque temporibus minus excepturi, in animi.
+      </p>
+      <div class="team-img">
+        <div class="team-image-one">
+          <img src="materials\images\img2.jpg" alt="img-one" width="300px" height="310px" />
+          <div class="founder">
+            <p id="david">David Forren</p>
+            <p id="ceo">Founder/CEO</p>
+          </div>
+        </div>
+        <div class="team-image-two">
+          <img src="materials\images\img4.jpg" alt="img-two" width="300px" height="310px" />
+          <div class="founder">
+            <p id="david">David Forren</p>
+            <p id="ceo">Founder/CEO</p>
+          </div>
+        </div>
+        <div class="team-image-three">
+          <img src="materials\images\img9.jpg" alt="img-three" width="300px" height="310px" />
+          <div class="founder">
+            <p id="david">David Forren</p>
+            <p id="ceo">Founder/CEO</p>
+          </div>
+        </div>
+      </div>
+      <a href="#">See All Team</a>
+    </div>
+  </section>
+  <section class="saying">
+    <div class="saying-container">
+      <h2>What They Saying</h2>
+      <div class="sayings">
+      </div>
+      <a href="#">See All Team</a>
+    </div>
+
+    </div>
+  </section>
+  <footer class="footer-container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <a href="#"><img src="materials\images\footer-logo.png" alt="logo" /></a>
+        <address>24 S Swan Road, Tucson,az,2345 United States</address>
+      </div>
+      <div class="navigation">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">Clients</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Testimonial</a></li>
+        </ul>
+      </div>
+      <div class="footer-support">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feature</a></li>
+          <li><a href="#">Integration</a></li>
+        </ul>
+      </div>
+      <div class="stay-connected">
+        <h3>Stay Connected!</h3>
+        <ul>
+          <li>
+            <a href="#"><img src="materials/images/call.svg" alt="call" width="20px" />+9876545678</a>
+          </li>
+          <li>
+            <a href="#"><img src="materials/images/mail.svg" alt="mail" width="20px" />contact@example.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="olyxio.js"></script>
+</body>
+
 </html>
