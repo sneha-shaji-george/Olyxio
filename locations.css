@@ -1182,8 +1182,7 @@ footer address {
 }
 
 .region-box {
-  /* margin-bottom: 50px;
-  margin-top: 50px; */
+  
   max-height: 200px;
   padding: 30px;
   width: 35%;
@@ -1220,9 +1219,7 @@ footer address {
 }
 
 .address {
-  /* display: flex;
-  gap: 29px;
-  flex-wrap: wrap; */
+ 
   width: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -1237,17 +1234,14 @@ footer address {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  /* justify-content: space-around;  */
-  /* width: 50%; */
 }
-/* .europe ,.middleEast , .southAsia, .eastAsia , .oceania{
-  display: none;
-} */
+
 .location-img {
   width: 50%;
 }
 .region-heading {
   background-color: #fae7c7;
+  height: 45px;
   color: #2c2d2a;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -1258,14 +1252,13 @@ footer address {
   cursor: pointer;
 }
 
-.region-heading:focus {
+.region-heading:active {
   background-color: #000;
   color: #fff;
-  max-height: 45px;
-  height: 100%;
+  height: 45px;
 }
 
-.region-heading:focus::after {
+.south-asia::after {
   opacity: 1;
   content: "";
   border: 10px solid #000;
@@ -1276,6 +1269,14 @@ footer address {
   width: 1%;
   display: block;
 }
+
+.south-asia{
+  background-color: #000;
+  color: #fff;
+  max-height: 45px;
+  height: 100%;
+}
+
 /* .map{
   font-size: 16px;
   font-family: "Lexend Deca";

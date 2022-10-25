@@ -45,6 +45,7 @@ const navbarItems = async () => {
     });
 };
 navbarItems();
+
 function dropDown(anchor) {
   anchor.classList.toggle("active");
   const dropDownContent = anchor.nextElementSibling;
@@ -66,18 +67,22 @@ const regions = async () => {
       generateSubContinents(locations);
     });
 };
+regions();
 
 function generateSubContinents(locations) {
   locations.forEach((element) => {
     const parent = document.querySelector(".region");
     const subContinent = document.createElement("a");
     subContinent.setAttribute("class", "region-heading");
+    element.region === "South Asia" &&
+      subContinent.setAttribute("class", "region-heading south-asia");
     subContinent.innerHTML = `${element.region}`;
     subContinent.setAttribute("onclick", "officeAddress(this.innerHTML)");
     subContinent.href = "#";
     parent.appendChild(subContinent);
   });
   defaultSouthAsia(locations);
+
 }
 
 function continentAddress(data) {
@@ -121,6 +126,7 @@ function continentAddress(data) {
       subContinent.appendChild(locationImage);
     }
   });
+  buttonFocus();
 }
 
 function officeAddress(data) {
@@ -151,6 +157,26 @@ function defaultSouthAsia(data) {
   continentAddress(continentData);
 }
 
-window.onload = function () {
-  regions();
-};
+function buttonFocus() {
+  const anchor = document.querySelectorAll(".region-heading");
+  // console.log(anchor)
+  anchor.forEach((item) => {
+    item.addEventListener("click", () => {
+      const anchorBox = item.parentElement;
+      console.log(anchorBox);
+      anchorBox.querySelectorAll(".region-heading").forEach(anchor => {
+        
+        anchor.classList.remove("south-asia")
+      });
+      item.classList.add("south-asia")
+    });
+  });
+}
+
+// buttonFocus();
+
+// window.onload = function () {
+//   navbarItems();
+//   regions();
+//   buttonFocus();
+// };
